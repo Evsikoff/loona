@@ -1,0 +1,7 @@
+node_modules/
+# Результат сборки и архив, который vk-miniapps-deploy создаёт при выкладке на хостинг VK
+build/
+build.zip
+.vercel/
+.claude/
+__pycache__/

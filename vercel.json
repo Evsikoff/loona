@@ -1,0 +1,6 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "LOONA_INTRO_URL=intro.mp4 npm run build",
+  "outputDirectory": "build"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "loona",
+  "private": true,
+  "homepage": ".",
+  "scripts": {
+    "build": "node build-vk.mjs",
+    "predeploy": "npm run build",
+    "deploy": "vk-miniapps-deploy"
+  },
+  "dependencies": {
+    "@vkontakte/vk-bridge": "3.0.2"
+  },
+  "devDependencies": {
+    "@vkontakte/vk-miniapps-deploy": "1.0.3"
+  }
+}
